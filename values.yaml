@@ -13,7 +13,7 @@ resources:
 #***java && app 环境变量设置
 env: 
   - name: "JAVA_OPTS"
-    value: "-Xmx512M -Xms355M -Xss256k -Duser.timezone=Asia/Shanghai"
+    value: "-Xmx512M -Xms355M -Xss512k -Duser.timezone=Asia/Shanghai"
   - name: "APP_OPTS"
     value: "" 
 
